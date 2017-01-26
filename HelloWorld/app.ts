@@ -5,7 +5,7 @@
 
     constructor(element: HTMLElement) {
         this.element = element;
-        this.element.innerHTML += "Local time is: ";
+        this.element.innerHTML += "My Local time is: ";
         this.span = document.createElement('span');
         this.element.appendChild(this.span);
         this.span.innerText = new Date().toLocaleString();
